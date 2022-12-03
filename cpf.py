@@ -5,6 +5,7 @@ def f_limpa(cpf):
   for i in range(len(cpf)):
     if (cpf[i] != "." and cpf[i] != "-"):
       novo += cpf[i]
+  return novo    
 def f_primeiroDV(c):
   mult = 10
   s = 0
